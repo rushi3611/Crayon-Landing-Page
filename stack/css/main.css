@@ -1,0 +1,70 @@
+.certificate h3{font-size: 3em;font-weight: bold;margin-bottom: 0;color: #14274a}
+.testimonial h3,.blog-sec h2,.program-topic h3,.learning h3,.blockchain h3{font-size: 3em;font-weight: bold;margin-bottom: 20px;color: #14274a}
+.testimonial h5{font-size: 1.5em;font-weight: bold;margin-bottom: 0!important;color: #1f283b}
+.certificate .cert-p p{font-size: 17px;padding-right: 65px;line-height: 30px;text-shadow: 0 1px black}
+
+
+.certificate .earn-cert,.download{padding: 15px 50px;color: #000;background-color: #f8b216;border-radius: 5px;
+font-size: 14px;border: 1px solid #f8b216}
+#send{padding: 5px 50px;color: #000;background-color: #f8b216;border-radius: 5px;
+font-size: 14px;border: 1px solid #f8b216}
+.testimonial .first-p{color: #000}
+.testimonial .sec-p{font-size: 18px;line-height: 30px}
+.testimonial .sec-p a{text-decoration: none;font-weight: bold;color: #14274a}
+.blog-sec h4{font-weight: bold;color: #14274a}
+.blog-sec ul li{list-style-type: disc;}
+.blog-sec ul{margin-left: 15px!important}
+
+.program-topic p,.learning p,.blockchain p{font-size: 18px;color: #444;margin-bottom: 50px!important;
+	line-height: 30px;letter-spacing: 0.8px}
+.program-topic li{font-size: 18px;color: #444;margin-bottom: 20px}
+.program-topic span{color: #14274a;font-weight: bold;}
+.blockchain p{padding: 0 5%;margin-bottom: 30px!important}
+.border-rt{border-right: 1px solid #efefef}
+.blockchain h4{margin-top: 0!important}
+.blockchain h4{font-size: 2.2em;font-weight: bold;margin-bottom: 20px;color: #14274a}
+
+.icons-3 .boxed{border-radius: 0;background: #14274a!important;border: 1px solid #14274a;z-index: 9999999}
+.icons-3 p{color: #fff;font-size: 24px;line-height: 36px}
+.icons-3 p span{font-weight: bold;}
+.icons-3 .feature__body{min-height: 110px}
+
+.header-bg h2{font-size: 2.6em}
+.header-bg .header-back{background: #000;padding: 25px}
+.header-bg .form-bg{padding: 20px 30px}
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+.icons-3 img{margin-top: 25px;float: left;margin-bottom: 4em}
+.testimonial h3, .blog-sec h2, .program-topic h3, .learning h3, .blockchain h3{line-height: 40px}
+.youtube-section{padding: 6em}
+.certificate .cert-p p{padding-right: 0}
+.cert-img img{margin-top: 40px}
+}
+
+@media screen and (min-width: 768px){
+.icons-3{padding-top: 0;margin-top: -75px}
+.blockchain .first-box h4{margin-bottom: 60px!important}
+.cert-img img{width: 75%}
+.cert-p{margin-top: 5em}
+.blog-sec .feature__body{min-height: 260px}
+}
+
+@media screen and (max-width: 640px) and (min-width: 500px){
+.icons-3 p{font-size: 18px;line-height: 31px}
+.blog-sec .blog-1{min-height: 252px}
+.blog-sec .blog-2{min-height: 345px} 
+}
+
+@media screen and (max-width: 980px) and (min-width: 768px){
+.icons-3 p{font-size: 20px;line-height: 28px;margin-top: 0!important}
+.icons-3,.blockchain{padding-bottom: 50px}
+.blockchain h4{font-size: 2em}.blockchain p{font-size: 16px}
+.blog-sec .blog-2{min-height: 335px}
+.cert-img img{width: 100%}.cert-p{margin-top: 0}
+.certificate .cert-p p{padding-right: 0}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1024px){
+.icons-3 p{font-size: 19px}
+.blog-sec .blog-2{min-height: 287px}
+}
